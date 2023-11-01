@@ -1,0 +1,32 @@
+{
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"incremental": true,
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"module": "Node16",
+		"moduleResolution": "Node16",
+		"declaration": false,
+		"declarationMap": false,
+		"sourceMap": false,
+		"outDir": "dist",
+		"importHelpers": true,
+		"downlevelIteration": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"skipLibCheck": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"useDefineForClassFields": true,
+		"forceConsistentCasingInFileNames": true,
+		"paths": {
+			"*": ["./src/*"]
+		}
+	}
+}
